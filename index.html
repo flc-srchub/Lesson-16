@@ -38,13 +38,13 @@
 										<div class="form-appointment__item">
 											<select name="select-service" id="select-service" class="form-appointment__select" autocomplete="off">
 												<option value="1" selected>basic package</option>
-												<option value="2" selected>extended package</option>
+												<option value="2">extended package</option>
 											</select>
 										</div>
 										<textarea class="form-appointment__textarea" name="text" placeholder="Tell us about your puppers include his/her name" autocomplete="off">
 										</textarea>
 										<div class="form-appointment__buttom">
-											<button class="form-appointment__button button" name="button" type="submit" autocomplete="off">
+											<button class="form-appointment__button button" name="button" type="submit">
 												Make an Appointment
 											</button>
 										</div>
@@ -87,14 +87,14 @@
 								<div class="form__radiobuttons radiobuttons-form">
 									<h3 class="radiobuttons-form__title">Standard Rate</h3>
 									<div class="radiobuttons-form__item">
-										<input type="radio" autocomplete="off" id="price_1" class="radiobuttons-form__input" name="price_1">
+										<input type="radio" id="price_1" class="radiobuttons-form__input" name="price_1">
 										<label for="price_1" class="radiobuttons-form__label">
 											Price may vary depending on the item/destination. Shop Staff will contact you. $21.00
 										</label>
 									</div>
 									<h3 class="radiobuttons-form__title">Pickup from store</h3>
 									<div class="radiobuttons-form__item">
-										<input type="radio" autocomplete="off" id="price_2" class="radiobuttons-form__input" name="price_1">
+										<input type="radio" id="price_2" class="radiobuttons-form__input" name="price_1">
 										<label for="price_2" class="radiobuttons-form__label">
 											1234 Street Adress City Address, 1234 $0.00
 										</label>
@@ -107,7 +107,7 @@
 										<input class="form__input" type="text" autocomplete="off" value="" name="code" id="code" placeholder="Enter Discount code">
 									</div>
 								</div>
-								<button class="form__button" action="#" type="submit">Apply Discount</button>
+								<button class="form__button" type="submit">Apply Discount</button>
 							</form>
 						</div>
 					</div>
@@ -118,15 +118,15 @@
 							<h2 class="form-customer-login__title">Registered Customers</h2>
 							<p class="form-customer-login__sub-title">If you have an account, sign in with your email address.</p>
 							<div class="form-customer-login__item">
-								<label class="form__label form__label_marked" for="email">Email</label>
-								<input class="form__input" type="email" autocomplete="off" value="" name="email" id="email" placeholder="Enter your e-mail" required>
+								<label class="form__label form__label_marked" for="email3">Email</label>
+								<input class="form__input" type="email3" autocomplete="off" value="" name="email3" id="email3" placeholder="Enter your e-mail" required>
 							</div>
 							<div class="form-customer-login__item">
 								<label class="form__label form__label_marked" for="password">Password</label>
 								<input class="form__input" type="password" autocomplete="off" value="" name="password" id="password" placeholder="Enter your password" required>
 							</div>
 							<div class="form-customer-login__buttons">
-								<button class="form__button form__button_color form__button_margin" action="#" type="submit">Sign In</button>
+								<button class="form__button form__button_color form__button_margin" type="submit">Sign In</button>
 								<a href="" class="form-customer-login__link link">Forgot Your Password?</a>
 							</div>
 						</form>
@@ -171,16 +171,16 @@
 									<option value="3">Mississippi</option>
 									<option value="4">Nevada</option>
 									<option value="5">Oklahoma</option>
-									<option value="6" selected></option>
+									<option value="6" selected>Nevada</option>
 								</select>
 							</div>
 							<div class="shipping-address__item">
 								<label class="shipping-address__label" for="zip">Zip/Postal Code</label>
-								<input class="shipping-address__input" type="zip" autocomplete="off" id="city" name="zip" placeholder="" required>
+								<input class="shipping-address__input" type="number" id="zip" name="zip" placeholder="" required>
 							</div>
 							<div class="shipping-address__item">
-								<label class="shipping-address__label" for="country">Country</label>
-								<select class="shipping-address__select" name="country" id="country">
+								<label class="shipping-address__label" for="country2">Country</label>
+								<select class="shipping-address__select" name="country2" id="country2">
 									<option value="1">Australia</option>
 									<option value="2">Canada</option>
 									<option value="3" selected>United States</option>
@@ -189,27 +189,27 @@
 								</select>
 							</div>
 							<div class="shipping-address__item shipping-address__item_line">
-								<label class="shipping-address__label" for="phone">Phone Number</label>
-								<input class="shipping-address__input" type="tel" autocomplete="off" id="phone" name="zip" placeholder="" value="" required>
+								<label class="shipping-address__label" for="phone2">Phone Number</label>
+								<input class="shipping-address__input" type="tel" autocomplete="off" id="phone2" name="phone2" placeholder="" value="" required>
 							</div>
 
 							<div class="radiobuttons-form radiobuttons-form_line radiobuttons-form_margin-bottom">
 								<h3 class="radiobuttons-form__title">Standard Rate</h3>
 								<div class="radiobuttons-form__item">
-									<input type="radio" autocomplete="off" id="price_3" class="radiobuttons-form__input" name="price_1">
+									<input type="radio" id="price_3" class="radiobuttons-form__input" name="price_3">
 									<label for="price_3" class="radiobuttons-form__label radiobuttons-form__label_font">
 										Price may vary depending on the item/destination. Shop Staff will contact you. $21.00
 									</label>
 								</div>
 								<h3 class="radiobuttons-form__title">Pickup from store</h3>
 								<div class="radiobuttons-form__item">
-									<input type="radio" autocomplete="off" id="price_4" class="radiobuttons-form__input" name="price_1">
+									<input type="radio" autocomplete="off" id="price_4" class="radiobuttons-form__input" name="price_4">
 									<label for="price_4" class="radiobuttons-form__label radiobuttons-form__label_font">
 										1234 Street Adress City Address, 1234 $0.00
 									</label>
 								</div>
 							</div>
-							<button class="form__button form__button_color form__button_bottom-width" action="#" type="submit">Next</button>
+							<button class="form__button form__button_color form__button_bottom-width" type="submit">Next</button>
 						</form>
 					</div>
 				</div>
